@@ -6,12 +6,28 @@
 }
 
 
-a .navbar-brand .marcas{
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+ul{
+    list-style-type: none;
 }
 
+a:hover, .active {
+    color:rgb(187, 27, 27);
+}
+
+a {
+    color:black;
+    text-decoration: none;
+   
+}
+
+
+
+footer .rodape{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
 
 /*nav{
     display:flex;
